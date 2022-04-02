@@ -1,21 +1,13 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/move.rb'
-# Code your CLI Here
-
-
-
+require_relative "../lib/move.rb"
 
 def greeting
   print "Welcome to Tic Tac Toe!"
 end
 greeting
 
-def board
-prints = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-end
-board
-
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def ask(input)
   print " Where would you like to go?"
